@@ -10,13 +10,13 @@ _C.BASE = ['']
 
 # Data settings
 _C.DATA = CN()
-_C.DATA.BATCH_SIZE = 128
+_C.DATA.BATCH_SIZE = 32
 _C.DATA.DATA_PATH = ''
 _C.DATA.DATASET = 'imagenet-tiny'
 _C.DATA.IMG_SIZE = 64
 _C.DATA.INTERPOLATION = 'bicubic'
-_C.PIN_MEMORY = True
-_C.NUM_WORKERS = 8
+_C.DATA.PIN_MEMORY = True
+_C.DATA.NUM_WORKERS = 2
 
 
 # Model settings
